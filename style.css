@@ -1,0 +1,39 @@
+body{
+    background-image: url("vackground-com-6XNIVSDzA2g-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    font-family: 'Wix Madefor Display', sans-serif;
+    color: white;
+}
+
+canvas{
+    position:absolute; 
+    left:470px;
+    top:35%;
+    border-radius: 5px;
+    border-color: white;
+    box-shadow: 10px 10px 10px pink;
+}
+
+button{
+    height: 35px;
+    background-color: transparent;
+    transition: 1s;
+    border-radius: 5px;
+    border-color: white;
+    box-shadow: 1px 1px 1px pink;
+}
+
+button:hover{
+    background-color: purple;
+    box-shadow: 3px 3px 3px purple;
+    transition: 1s;
+    
+}
+
+hr{
+    height: 5px;
+    width: 50%;
+    background-color: white;
+    box-shadow: 5px 5px 5px pink;
+}
